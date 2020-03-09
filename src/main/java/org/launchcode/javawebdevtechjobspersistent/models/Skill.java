@@ -9,14 +9,14 @@ public class Skill extends AbstractEntity {
 
     }
 
-    private String extraSkillDescription;
+    private String description;
 
-    public String getExtraSkillDescription() {
-        return extraSkillDescription;
+    public String description() {
+        return description;
     }
 
-    public void setExtraSkillDescription(String extraSkillDescription) {
-        this.extraSkillDescription = extraSkillDescription;
+    public void description(String description) {
+        this.description = description;
     }
 
 
