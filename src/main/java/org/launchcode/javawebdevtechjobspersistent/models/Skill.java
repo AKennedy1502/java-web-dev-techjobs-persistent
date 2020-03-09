@@ -10,6 +10,7 @@ public class Skill extends AbstractEntity {
 
     }
 
+    @NotBlank
     private String description;
 
     public String getDescription() {
